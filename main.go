@@ -53,9 +53,9 @@ func renderTime(d time.Duration, paused bool) {
 	}
 
 	if paused {
-		fmt.Println("\n⏸️  Paused - Press 'p' to resume | Ctrl+C or 'q' to end task")
+		fmt.Println("\n⏸️  Paused - Press 'p' to resume | 'q' to end task")
 	} else {
-		fmt.Println("\n▶️  Tracking - Press 'p' to pause | Ctrl+C or 'q' to end task")
+		fmt.Println("\n▶️  Tracking - Press 'p' to pause | 'q' to end task")
 	}
 }
 
