@@ -41,6 +41,7 @@ func renderTime(d time.Duration, paused bool) {
 	m := int(d.Minutes()) % 60
 	s := int(d.Seconds()) % 60
 	timeStr := fmt.Sprintf("%02d:%02d:%02d", h, m, s)
+	fmt.Println("⏱️  Time Elapsed")
 
 	rows := make([]string, 5)
 	for _, ch := range timeStr {
